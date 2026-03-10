@@ -1,104 +1,190 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Prof.Dr.I Gede Puja Astawa</title>
+<title>Dr. Puja Astawa</title>
 
 <style>
+
 body{
-font-family: Arial, sans-serif;
+font-family: "Georgia", serif;
 margin:0;
-background:#f5f5f5;
-}
-
-.header{
-background:#003366;
-color:white;
-padding:30px;
-text-align:center;
-}
-
-.menu{
-background:#005599;
-padding:10px;
-text-align:center;
-}
-
-.menu a{
-color:white;
-margin:15px;
-text-decoration:none;
-font-weight:bold;
+background:#ffffff;
+color:#333;
 }
 
 .container{
-width:80%;
+width:900px;
 margin:auto;
-background:white;
-padding:30px;
+padding:40px;
+}
+
+.header{
+display:flex;
+align-items:center;
+margin-bottom:40px;
+}
+
+.photo{
+width:150px;
+height:150px;
+border-radius:5px;
+margin-right:30px;
+}
+
+.name{
+font-size:32px;
+font-weight:bold;
+}
+
+.title{
+font-size:18px;
+color:#555;
+}
+
+.menu{
+margin-top:10px;
+}
+
+.menu a{
+margin-right:15px;
+text-decoration:none;
+color:#003366;
+font-weight:bold;
+}
+
+.section{
+margin-top:40px;
 }
 
 h2{
-color:#003366;
-border-bottom:2px solid #ddd;
+border-bottom:1px solid #ddd;
 padding-bottom:5px;
+color:#003366;
+}
+
+ul{
+line-height:1.7;
 }
 
 .footer{
-background:#003366;
-color:white;
-text-align:center;
-padding:10px;
-margin-top:20px;
+margin-top:60px;
+font-size:14px;
+color:#777;
+border-top:1px solid #ddd;
+padding-top:10px;
 }
+
 </style>
 
 </head>
 
 <body>
 
+<div class="container">
+
 <div class="header">
-<h1>Dr. Puja Astawa</h1>
-<p>Dosen Telekomunikasi</p>
-</div>
+
+<img src="photo.jpg" class="photo">
+
+<div>
+<div class="name">Dr. Puja Astawa</div>
+<div class="title">Lecturer in Telecommunications</div>
 
 <div class="menu">
 <a href="#about">About</a>
 <a href="#research">Research</a>
-<a href="#publication">Publications</a>
+<a href="#publications">Publications</a>
+<a href="#teaching">Teaching</a>
 <a href="#contact">Contact</a>
 </div>
 
-<div class="container">
+</div>
+</div>
 
-<h2 id="about">About</h2>
+
+<div class="section" id="about">
+<h2>About</h2>
 <p>
-Dr. Puja Astawa adalah dosen pada bidang Telekomunikasi dengan fokus penelitian
-pada Wireless Communication, Software Defined Radio (SDR), dan OFDM.
+I am a lecturer in Telecommunications with research interests in
+Wireless Communication, Software Defined Radio (SDR), and OFDM systems.
+My work focuses on experimental implementation of communication systems
+using USRP and GNU Radio.
 </p>
+</div>
 
-<h2 id="research">Research Interest</h2>
+
+<div class="section" id="research">
+<h2>Research Interests</h2>
+
 <ul>
 <li>Wireless Communication Systems</li>
 <li>Software Defined Radio (USRP)</li>
 <li>OFDM Communication Systems</li>
 <li>Digital Signal Processing</li>
+<li>5G and Future Wireless Networks</li>
 </ul>
-
-<h2 id="publication">Publications</h2>
-<ul>
-<li>Experimental Analysis of SDR Based Wireless Communication Systems</li>
-<li>Implementation of OFDM System using GNU Radio and USRP</li>
-<li>Performance Evaluation of Digital Modulation using SDR</li>
-</ul>
-
-<h2 id="contact">Contact</h2>
-<p>Email : puja@domain.com</p>
-<p>Institution : Politeknik Penerbangan Surabaya</p>
 
 </div>
 
+
+<div class="section" id="publications">
+<h2>Selected Publications</h2>
+
+<ul>
+<li>
+Astawa, P. (2024). Experimental Analysis of Wireless Communication using
+Software Defined Radio.
+</li>
+
+<li>
+Astawa, P. (2023). Implementation of OFDM System using GNU Radio and USRP.
+</li>
+
+<li>
+Astawa, P. (2022). Performance Evaluation of Digital Modulation using SDR.
+</li>
+
+</ul>
+
+</div>
+
+
+<div class="section" id="teaching">
+<h2>Teaching</h2>
+
+<ul>
+<li>Wireless Communication</li>
+<li>Digital Communication Systems</li>
+<li>Telecommunication Networks</li>
+<li>Digital Signal Processing</li>
+</ul>
+
+</div>
+
+
+<div class="section" id="contact">
+<h2>Contact</h2>
+
+<p>
+Email : puja@domain.com
+</p>
+
+<p>
+Institution : Politeknik Penerbangan Surabaya
+</p>
+
+<p>
+Google Scholar | Scopus | ORCID
+</p>
+
+</div>
+
+
 <div class="footer">
 © 2026 Dr. Puja Astawa
+</div>
+
+
 </div>
 
 </body>
